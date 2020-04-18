@@ -68,6 +68,8 @@ spec:
               value: {{ include "awx.fullname" . }}-rabbitmq
             - name: RABBITMQ_PORT
               value: "4369"
+            - name: LDAPTLS_REQCERT
+              value: "never"
 
         - name: task
           image: "{{ .Values.awx_task.image.repository }}:{{ .Values.awx_task.image.tag }}"
