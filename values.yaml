@@ -33,6 +33,15 @@ email_host_user: ''
 email_host_password: ''
 email_use_tls: 'False'
 
+# allow overwriting static files from given assets volume
+customizations: {}
+  # volume:
+  #   persistentVolumeClaim:
+  #     claimName: awx-customization
+  # files:
+  #   - mountPath: /var/lib/awx/public/static/assets/logo-header.svg
+  #     subPath: logo-header.svg
+
 deployment:
   annotations: {}
 
