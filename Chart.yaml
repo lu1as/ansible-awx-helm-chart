@@ -3,6 +3,7 @@ description: Installs Ansible AWX (Ansible Web UI), with dependencies (rabbitmq,
 name: awx
 version: 0.7.2
 appVersion: 6.1.0
+icon: https://upload.wikimedia.org/wikipedia/commons/0/05/Ansible_Logo.png
 maintainers:
   - name: kim0
     email: email.ahmedkamal@googlemail.com
